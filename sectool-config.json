@@ -1,0 +1,14 @@
+{
+  "violation-policy": [{
+    "class": "stored-secrets",
+    "rules": {
+      "aws-access-key-id": "alert",
+      "basic-auth-credentials": "block"
+    }
+  }, {
+    "class": "cloud-misconfiguration",
+    "rules": {
+      "aws-classic-resource-usage": "alert"
+    }
+  }]
+}
