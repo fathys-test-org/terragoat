@@ -1,3 +1,9 @@
 {
-  "violation-policy": []
+  "violation-policy": [{
+    "class": "stored-secrets",
+    "rules": {
+      "aws-access-key-id": "alert",
+      "basic-auth-credentials": "block"
+    }
+  }]
 }
