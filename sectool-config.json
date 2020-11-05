@@ -8,7 +8,8 @@
   }, {
     "class": "cloud-misconfiguration",
     "rules": {
-      "aws-classic-resource-usage": "alert"
+      "aws-classic-resource-usage": "alert",
+      "ecr-disabled-image-scans": "block"
     }
   }]
 }
