@@ -11,7 +11,8 @@
       "class": "cloud-misconfiguration",
       "rules": {
         "aws-classic-resource-usage": "alert",
-        "s3-disabled-server-logging": "alert"
+        "s3-disabled-server-logging": "alert",
+        "sensitive-data-in-block-attribute": "alert"
       }
     }
   ]
